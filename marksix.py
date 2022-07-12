@@ -9,7 +9,7 @@ number = st.number_input(' ')
 number = int(number)
 if number > 1:
 	new_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">You want to generate  </p>',number,'<p style="font-family:Courier; color:Blue; font-size: 20px;"> lines of marksix</p>'
-	st.markdown(new_title, unsafe_allow_html=True)
+	st.markdown(new_title,original_title, unsafe_allow_html=True)
 #	st.write('You want to generate ',number,' lines of marksix')
 
 for i in range(number):
