@@ -1,4 +1,3 @@
-pip install yfinance
 import random
 import streamlit as st
 
